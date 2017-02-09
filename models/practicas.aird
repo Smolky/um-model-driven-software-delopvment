@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_wgxkoMEtEea6prC--EL8tg" selectedViews="_yRkz4MEtEea6prC--EL8tg" version="8.1.1">
+  <models xmi:type="ecore:EPackage" href="practicas.ecore#/"/>
+  <models xmi:type="genmodel:GenModel" href="practicas.genmodel#/"/>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_yRkz4MEtEea6prC--EL8tg" initialized="true">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_ykzR4MEtEea6prC--EL8tg" name="practicas class diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_ymlakMEtEea6prC--EL8tg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_ymlakcEtEea6prC--EL8tg" type="Sirius" element="_ykzR4MEtEea6prC--EL8tg" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_ynVBcMEtEea6prC--EL8tg" type="2001" element="_ykzR4cEtEea6prC--EL8tg">
+            <children xmi:type="notation:Node" xmi:id="_yq554MEtEea6prC--EL8tg" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_yq554cEtEea6prC--EL8tg" y="5"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_y5XMoMEtEea6prC--EL8tg" type="3005" element="_ykzR4sEtEea6prC--EL8tg">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_y5XMocEtEea6prC--EL8tg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y5XMosEtEea6prC--EL8tg"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_ynVBccEtEea6prC--EL8tg" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ynVBcsEtEea6prC--EL8tg" width="672" height="67"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_ymlaksEtEea6prC--EL8tg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_ykzR4cEtEea6prC--EL8tg" width="-1" height="-1">
+        <target xmi:type="ecore:EPackage" href="practicas.ecore#/"/>
+        <semanticElements xmi:type="ecore:EPackage" href="practicas.ecore#/"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_ykzR4sEtEea6prC--EL8tg" showIcon="false" labelPosition="node" workspacePath="/org.eclipse.emf.ecoretools.design/icons/full/back/empty.svg">
+          <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ykzR48EtEea6prC--EL8tg"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']/@style"/>
+          <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ykzR5MEtEea6prC--EL8tg"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@nodeMappings[name='Empty%20Diagram']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_ykzR5cEtEea6prC--EL8tg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Package']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@additionalLayers[name='Validation']"/>
+      <target xmi:type="ecore:EPackage" href="practicas.ecore#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

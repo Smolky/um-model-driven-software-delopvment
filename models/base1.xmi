@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ASCII"?>
+<p:Root xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://a.b.c/x/y/Z"
+    xsi:schemaLocation="http://a.b.c/x/y/Z ../metamodels/ecores/base.ecore"
+    name="test">
+  <views name="mainview">
+    <menu name="mainmenu">
+      <options
+          xsi:type="p:Menu">
+        <options
+            xsi:type="p:MenuItem"
+            name="option1"
+            href="#"/>
+        <options
+            xsi:type="p:MenuItem"
+            name="option2"
+            href="#"/>
+      </options>
+    </menu>
+    <color name="green"
+        G="255"/>
+    <mainblock>
+      <dimensions
+          width="480"
+          height="640"/>
+    </mainblock>
+  </views>
+</p:Root>

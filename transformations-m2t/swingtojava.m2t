@@ -1,0 +1,14 @@
+/**
+ * transformation swingtojava
+ * date: 23/0/2017
+ * author: null
+ * description: 
+ */
+
+texttransformation swingtojava (in mdl:"http://www.eclipse.org/uml2/3.0.0/UML") {
+
+  mdl.Model::main () {
+     ' todo: implement transformation ... ' 
+     
+  }
+}

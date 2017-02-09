@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ASCII"?>
+<blockgui:GUIDefinition
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:blockgui="http://www.modelum.es/blockgui"
+    xsi:schemaLocation="http://www.modelum.es/blockgui ../metamodels/ecores/blockgui-MM.ecore"
+    name="sample-definition">
+  <properties
+      xsi:type="blockgui:Color"
+      name="blue"
+      b="255"/>
+  <properties
+      xsi:type="blockgui:Color"
+      name="Green"
+      g="255"/>
+  <properties
+      xsi:type="blockgui:Color"
+      name="Red"
+      r="255"/>
+  <properties
+      xsi:type="blockgui:Color"
+      name="Yellow"
+      r="255"
+      g="255"/>
+  <properties
+      xsi:type="blockgui:Font"
+      name="Helvetica regular"
+      family="Helvetica"
+      size="16"/>
+  <properties
+      xsi:type="blockgui:Font"
+      name="Helvetica Bold"
+      family="Helvetica"
+      size="16"
+      style="Bold"/>
+  <properties
+      xsi:type="blockgui:Font"
+      name="Helvetica Italic"
+      family="Helvetica"
+      size="16"
+      style="Italic"/>
+  <properties
+      xsi:type="blockgui:Font"
+      name="Title"
+      family="Helvetica"
+      size="24"
+      style="Bold"/>
+  <views>
+    <size width="480"
+        height="640"/>
+    <menuBar>
+      <menus
+          text="Main menu">
+        <options
+            xsi:type="blockgui:Menu"
+            text="Options">
+          <options
+              xsi:type="blockgui:MenuItem"
+              text="Option 1"/>
+          <options
+              xsi:type="blockgui:MenuItem"
+              text="Option 2"/>
+        </options>
+        <options
+            xsi:type="blockgui:MenuItem"
+            text="Log-out"/>
+      </menus>
+    </menuBar>
+    <mainBlock
+        bgcolor="//@properties.1">
+      <components
+          xsi:type="blockgui:Label"
+          bgcolor="//@properties.0"
+          font="//@properties.4"
+          text="Sample label"/>
+      <components
+          xsi:type="blockgui:Input"
+          bgcolor="//@properties.0"
+          font="//@properties.4"/>
+      <components
+          xsi:type="blockgui:Button"
+          bgcolor="//@properties.0"
+          font="//@properties.4"
+          text="submit"/>
+      <components
+          xsi:type="blockgui:Button"
+          bgcolor="//@properties.2"
+          font="//@properties.4"
+          text="Cancel"/>
+    </mainBlock>
+  </views>
+</blockgui:GUIDefinition>

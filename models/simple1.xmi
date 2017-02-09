@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<simple:Root
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:simple="http://a.b.c/x/y/S"
+    xsi:schemaLocation="http://a.b.c/x/y/S ../metamodels/ecores/simple.ecore"
+    name="main">
+  <elements
+      name="element1"/>
+  <elements
+      name="element2"/>
+</simple:Root>
